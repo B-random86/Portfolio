@@ -7,10 +7,10 @@ class About extends Component {
     render() { 
         return (<div className='about'>
             <div className='about-content'>
-            <h1><Fade bottom>About.</Fade></h1>
-            <Fade bottom>
+            <h1><Fade bottom>Just Me</Fade></h1>
+            
                     <p>{data.abouttext}</p>
-            </Fade>
+           
             </div>
             {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
             
