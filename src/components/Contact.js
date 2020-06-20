@@ -7,13 +7,14 @@ class Contact extends Component {
     render() { 
         return (  <div>
         <h1>
-                <Fade bottom cascade> Contact.</Fade>
+                <Fade bottom> Contact.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
+                    <span className='amazing-color'>
                 Let’s create your next<br></br>
-                <span className='amazing-color'>experience together</span></h1>
+                experience together!</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
@@ -22,8 +23,8 @@ class Contact extends Component {
                 </ul>
         </div>
         </Fade>
-
-            <span className='footer'>Made With ❤ by <a href="http://.com/">Brandon Curtsinger</a></span>
+        <br />
+        <br />
         </div>);
     }
 }

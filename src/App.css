@@ -25,15 +25,7 @@ body{
   color: black;
   top:4em;
 }
-.heading-background{
-  position: fixed;
-  opacity: 0.05;
-  font-size: 25em;
-  left:-0.2em;
-  top:-0.5em;
-  z-index: -100;
-  color:#9352ae;
-}
+
 header{
   display: flex;
   flex-direction: row;
@@ -47,7 +39,7 @@ padding: 2em;
 margin-right: 50em;
 }
 nav{
-  position:fixed;
+ 
   left:60em;
   top:6em;
 z-index: 100;
@@ -157,7 +149,7 @@ height: 30em;
   text-align: left;
 }
 .amazing-color{
-  color:#9352ae;
+  color:#05c70e;
   opacity: 1;
 }
 
