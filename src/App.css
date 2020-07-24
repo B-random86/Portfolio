@@ -3,7 +3,7 @@
 
 body{
   font-size: 16px;
-  background: white;
+  background: rgb(71, 70, 70);
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
@@ -52,8 +52,9 @@ nav li{
 nav li .link{
   text-decoration: none;
   color: black;
+  background-color: #05c70e;
   padding:1em;
-  opacity: 0.5;
+  opacity: .9;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -177,6 +178,8 @@ height: 30em;
   text-decoration: none;
   color:#2c59fb;
 }
+
+
 
 
 /* SMARTPHONES PORTRAIT */

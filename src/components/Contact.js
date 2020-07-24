@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../yourdata';
+import data from '../data';
 
 class Contact extends Component {
     state = {  }
@@ -11,8 +11,8 @@ class Contact extends Component {
         <div className='contact-content'>
                 <h1>
                     <span className='amazing-color'>
-                Let’s create your next<br></br>
-                experience together!</span></h1>
+                Let’s create the<br></br>
+                future together!</span></h1>
                     <a href="http://www.gmail.com/eosguitarist27" className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(

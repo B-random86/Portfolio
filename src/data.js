@@ -1,14 +1,17 @@
 export default
+
     {
         headerTagline: [
                         "Hi i'm Brandon Curtsinger.",
-                        'Where do we go from here?. ',
+                        'How can I help you succeed?',
     ],
-        contactEmail:'EOSGuitarist27@gmail.com',
-        abouttext: "",
+        
+        
         aboutImage:"Golf.jpg",
         ShowAboutImage: true,
-       projects:[
+        abouttext: "I'm a very outgoing person who likes to better myself!",
+        abouttext1: "I cant wait to start a career with your company.",
+        projects:[
            {
             id: 1,
             title:'React Bootcamp', 
@@ -38,6 +41,8 @@ export default
                 url: 'https://github.com/B-random86/BAM'
            }
         ],
+
+        contactEmail:'EOSGuitarist27@gmail.com',
         social: [
             {   name:'Github',
                 url:'https://github.com/B-random86'},
