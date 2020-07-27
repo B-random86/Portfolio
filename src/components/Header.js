@@ -8,7 +8,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'><b>Welcome To My Portfolio!</b></h1>
+        <h1 className='heading-background'><Fade duration='3000' ><b>Welcome To My Portfolio!</b></Fade></h1>
             <header>
                 <h1>
                     {data.name}</h1>
@@ -18,7 +18,7 @@ class Header extends Component {
             {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
             {data.headerTagline[2]}
                <br></br>
-                    {/* <button><a href="gmail.com">Contact</a></button> */}
+                
                 </p>
             
 

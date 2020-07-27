@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Project from './project';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
-
+ 
 class Work extends Component {
     state = {  }
     render() { 
@@ -11,12 +11,12 @@ class Work extends Component {
         <Fade bottom>My Work</Fade></h1>
         <div className='work-content'>
                 {data.projects.map((project)=>(
-                    <Project key={project.id}
+                    <b><Project key={project.id}
                              title = {project.title}
                              service = {project.service}
                              imageSrc = {project.imageSrc}
                              url={project.url}
-                     ></Project>
+                     ></Project></b>
                 ))}
         </div>
         </div>  );
